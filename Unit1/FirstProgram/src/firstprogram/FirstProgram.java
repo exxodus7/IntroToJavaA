@@ -24,7 +24,5 @@ public class FirstProgram {
 
         System.out.println("The sum of those two numbers is: ");
         System.out.println(n1 + n2);
-
-        System.out.println("Div test: " + (double) 9 / 2);
     }
 }
