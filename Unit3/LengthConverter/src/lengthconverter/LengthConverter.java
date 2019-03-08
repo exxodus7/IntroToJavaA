@@ -1,4 +1,4 @@
-package inchcentimeterconverter;
+package lengthconverter;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Class providing functionality for basic conversions between inches and
  * centimeters.
  */
-public class InchCentimeterConverter {
+public class LengthConverter {
 
     /**
      * Converts inches to centimeters and back.
@@ -14,8 +14,8 @@ public class InchCentimeterConverter {
      * @param args No arguments expected.
      */
     public static void main(String[] args) {
-        int inch;
         double cm;
+        int inch;
         Scanner in = new Scanner(System.in);
         
         // convert from inches to centimeters.
