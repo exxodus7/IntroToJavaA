@@ -1,5 +1,5 @@
 # NetBeans specific #
-*/nbproject/*
+*nbproject
 !nbproject/project.properties
 !nbproject/project.xml
 *dist
@@ -55,3 +55,6 @@ Thumbs.db
 /Chapter1/HelloWorld/nbproject/private/
 /Spring2019/SectionA-temp/DeclarationAssignment/nbproject/private/
 /Unit3/InchCentimeterConverter/nbproject/private/
+/Unit1/HelloWorld/nbproject/private/
+/Unit2/Time/nbproject/private/
+/Unit3/Echo/nbproject/private/
