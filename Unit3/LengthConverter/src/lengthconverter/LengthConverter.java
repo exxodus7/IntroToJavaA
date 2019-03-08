@@ -15,14 +15,14 @@ public class LengthConverter {
      */
     public static void main(String[] args) {
         double cm;
-        int inch;
+        int inches;
         Scanner in = new Scanner(System.in);
         
         // convert from inches to centimeters.
         System.out.print("How many inches? ");
-        inch = in.nextInt();
-        cm = inch * 2.54;
-        System.out.print(inch + " in = ");
+        inches = in.nextInt();
+        cm = inches * 2.54;
+        System.out.print(inches + " in = ");
         System.out.println(cm + " cm");
         
         // convert from centimeters to inches.
