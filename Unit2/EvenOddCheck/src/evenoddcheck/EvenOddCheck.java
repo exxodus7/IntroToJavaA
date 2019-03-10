@@ -7,11 +7,6 @@ import java.util.Scanner;
  */
 public class EvenOddCheck {
 
-    /**
-     * Checks whether a number that a user inputs is even or odd.
-     *
-     * @param args expects no arguments.
-     */
     public static void main(String[] args) {
 
         Scanner reader = new Scanner(System.in);

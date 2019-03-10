@@ -5,11 +5,6 @@ package time;
  */
 public class Time {
 
-    /**
-     * Gives information about a given time of day.
-     *
-     * @param args Expects no arguments
-     */
     public static void main(String[] args) {
         // Declarations
         String message;

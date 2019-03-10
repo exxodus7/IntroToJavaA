@@ -8,11 +8,6 @@ import java.util.Scanner;
  */
 public class LengthConverter {
 
-    /**
-     * Converts inches to centimeters and back.
-     *
-     * @param args No arguments expected.
-     */
     public static void main(String[] args) {
         
         double cm;
