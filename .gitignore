@@ -1,7 +1,7 @@
 # NetBeans specific #
-*nbproject
-!nbproject/project.properties
-!nbproject/project.xml
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
 *dist
 *build
 
