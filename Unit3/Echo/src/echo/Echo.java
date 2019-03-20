@@ -16,7 +16,7 @@ public class Echo {
         System.out.println("You said: " + line);
 
         System.out.print("Type something else: ");
-        // TODO Read in another line
+        line = in.nextLine();
         System.out.println("You also said: " + line);
     }
 
