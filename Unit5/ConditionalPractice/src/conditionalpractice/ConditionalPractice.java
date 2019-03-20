@@ -22,5 +22,4 @@ public class ConditionalPractice {
         System.out.println("x >= y? " + (x >= y));  // x is greater than or equal to y
         System.out.println("x <= y? " + (x <= y));  // x is less than or equal to y
     }
-
 }
