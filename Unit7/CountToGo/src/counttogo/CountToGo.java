@@ -15,8 +15,10 @@ public class CountToGo {
         Scanner keyboard = new Scanner(System.in);
         number = keyboard.nextInt();
         
-        for (int count = 1; count <= number; count++) {
+        int count = 1;
+        while (count <= number) {
             System.out.print(count + ", ");
+            count++;
         }
         System.out.println("Go!");
     }
