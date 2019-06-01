@@ -11,7 +11,6 @@ public class Product {
 
     public static int prod(int m, int n) {
         if (m == n) {
-            System.out.println(n);
             return n;
         } else {
             int recurse = prod(m, n - 1);
