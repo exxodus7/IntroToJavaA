@@ -1,5 +1,6 @@
 package histogramgenerator;
 
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -18,5 +19,7 @@ public class HistogramGenerator {
         for (int i = 0; i < a.length; i++) {
             a[i] = random.nextInt(100);
         }
+        
+        System.out.println(Arrays.toString(a));
     }
 }
