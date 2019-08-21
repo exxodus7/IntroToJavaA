@@ -12,14 +12,13 @@ public class HistogramGenerator {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-        // Create a randomly populated array.
+
         Random random = new Random();
-        int[] a = new int[5];
-        for (int i = 0; i < a.length; i++) {
-            a[i] = random.nextInt(100);
+        int[] counts = new int[8];
+        for (int i = 0; i < counts.length; i++) {
+            counts[i] = random.nextInt(100);
         }
-        
-        System.out.println(Arrays.toString(a));
+
+        System.out.println(Arrays.toString(counts));
     }
 }

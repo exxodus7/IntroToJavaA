@@ -3,15 +3,14 @@ package numberadder;
 import java.util.Scanner;
 
 /**
- *
- * @author lauren
+ * Adds positive numbers together.
  */
 public class NumberAdder {
 
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        
+
         System.out.println("Enter numbers to be added together.\n"
                 + "Negative numbers will be skipped.\n"
                 + "A \"0\" will end the program.");
